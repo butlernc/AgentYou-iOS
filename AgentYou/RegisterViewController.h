@@ -9,5 +9,15 @@
 #ifndef AgentYou_RegisterViewController_h
 #define AgentYou_RegisterViewController_h
 
+#import <UIKit/UIKit.h>
+
+@interface RegisterViewController : UIViewController
+
+
+- (IBAction)createID:(id)sender;
+
+
+@end
+
 
 #endif

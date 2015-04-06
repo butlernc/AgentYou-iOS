@@ -7,3 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "RegisterViewController.h"
+
+@interface RegisterViewController()
+
+@end
+
+@implementation RegisterViewController
+
+
+
+- (IBAction)createID:(UIButton *)sender {
+}
+- (IBAction)createID:(id)sender {
+}
+@end
