@@ -14,6 +14,10 @@
 		D35A29A51ACDA7080028326D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35A29A41ACDA7080028326D /* Images.xcassets */; };
 		D35A29A81ACDA7080028326D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D35A29A61ACDA7080028326D /* LaunchScreen.xib */; };
 		D35A29B41ACDA7090028326D /* AgentYouTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D35A29B31ACDA7090028326D /* AgentYouTests.m */; };
+		D35A29C21AD2ED640028326D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35A29C11AD2ED640028326D /* LoginViewController.m */; };
+		D35A29C51AD2F0D40028326D /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35A29C41AD2F0D40028326D /* RegisterViewController.m */; };
+		D35A29C81AD2F17C0028326D /* DashBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35A29C71AD2F17C0028326D /* DashBoardViewController.m */; };
+		D35A29CC1AD2F1D30028326D /* IdentifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35A29CB1AD2F1D30028326D /* IdentifyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		D35A29AD1ACDA7080028326D /* AgentYouTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgentYouTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35A29B21ACDA7080028326D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D35A29B31ACDA7090028326D /* AgentYouTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgentYouTests.m; sourceTree = "<group>"; };
+		D35A29C11AD2ED640028326D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		D35A29C31AD2ED880028326D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		D35A29C41AD2F0D40028326D /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		D35A29C61AD2F0F00028326D /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		D35A29C71AD2F17C0028326D /* DashBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashBoardViewController.m; sourceTree = "<group>"; };
+		D35A29C91AD2F1940028326D /* DashBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashBoardViewController.h; sourceTree = "<group>"; };
+		D35A29CA1AD2F1B20028326D /* IdentifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdentifyViewController.h; sourceTree = "<group>"; };
+		D35A29CB1AD2F1D30028326D /* IdentifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdentifyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,10 @@
 		D35A29961ACDA7080028326D /* AgentYou */ = {
 			isa = PBXGroup;
 			children = (
+				D35A29C01AD2DACA0028326D /* Identify */,
+				D35A29BF1AD2DABF0028326D /* DashBoard */,
+				D35A29BE1AD2DA940028326D /* Register */,
+				D35A29BD1AD2DA860028326D /* Login */,
 				D35A299B1ACDA7080028326D /* AppDelegate.h */,
 				D35A299C1ACDA7080028326D /* AppDelegate.m */,
 				D35A299E1ACDA7080028326D /* ViewController.h */,
@@ -117,6 +133,42 @@
 				D35A29B21ACDA7080028326D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D35A29BD1AD2DA860028326D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D35A29C11AD2ED640028326D /* LoginViewController.m */,
+				D35A29C31AD2ED880028326D /* LoginViewController.h */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		D35A29BE1AD2DA940028326D /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				D35A29C41AD2F0D40028326D /* RegisterViewController.m */,
+				D35A29C61AD2F0F00028326D /* RegisterViewController.h */,
+			);
+			name = Register;
+			sourceTree = "<group>";
+		};
+		D35A29BF1AD2DABF0028326D /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				D35A29C71AD2F17C0028326D /* DashBoardViewController.m */,
+				D35A29C91AD2F1940028326D /* DashBoardViewController.h */,
+			);
+			name = DashBoard;
+			sourceTree = "<group>";
+		};
+		D35A29C01AD2DACA0028326D /* Identify */ = {
+			isa = PBXGroup;
+			children = (
+				D35A29CA1AD2F1B20028326D /* IdentifyViewController.h */,
+				D35A29CB1AD2F1D30028326D /* IdentifyViewController.m */,
+			);
+			name = Identify;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D35A29C21AD2ED640028326D /* LoginViewController.m in Sources */,
 				D35A29A01ACDA7080028326D /* ViewController.m in Sources */,
 				D35A299D1ACDA7080028326D /* AppDelegate.m in Sources */,
+				D35A29C81AD2F17C0028326D /* DashBoardViewController.m in Sources */,
+				D35A29CC1AD2F1D30028326D /* IdentifyViewController.m in Sources */,
+				D35A29C51AD2F0D40028326D /* RegisterViewController.m in Sources */,
 				D35A299A1ACDA7080028326D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
