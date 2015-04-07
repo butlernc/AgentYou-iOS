@@ -13,9 +13,15 @@
 
 @interface RegisterViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *agentEmailField;
 
-- (IBAction)createID:(id)sender;
+@property (strong, nonatomic) IBOutlet UITextField *agentNameField;
 
+@property (strong, nonatomic) IBOutlet UITextField *agentPasswordField;
+
+@property (strong, nonatomic) IBOutlet UITextField *agentRePasswordField;
+
+- (IBAction)advanceToCreateID:(id)sender;
 
 @end
 

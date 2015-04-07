@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "LoginViewController.h"
+#import "KairosSDK.h"
 
 @interface LoginViewController()
 
@@ -19,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [KairosSDK initWithAppId:@"3ee0bf26" appKey:@"39cc178beba27322ad2c99df0153e58c"];
 }
 
 - (void)didReceiveMemoryWarning {

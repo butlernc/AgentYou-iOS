@@ -17,8 +17,12 @@
 
 
 
-- (IBAction)createID:(UIButton *)sender {
-}
-- (IBAction)createID:(id)sender {
+
+- (IBAction)advanceToCreateID:(id)sender {
+    
+    if ([self.agentEmailField hasText]) {
+        
+    }
+    
 }
 @end

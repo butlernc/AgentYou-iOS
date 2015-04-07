@@ -19,6 +19,16 @@
 		D35A29C81AD2F17C0028326D /* DashBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35A29C71AD2F17C0028326D /* DashBoardViewController.m */; };
 		D35A29CC1AD2F1D30028326D /* IdentifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35A29CB1AD2F1D30028326D /* IdentifyViewController.m */; };
 		D35A29CF1AD326F40028326D /* CreateAgentHashController.m in Sources */ = {isa = PBXBuildFile; fileRef = D35A29CE1AD326F40028326D /* CreateAgentHashController.m */; };
+		D35A29D21AD3E3480028326D /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35A29D11AD3E3480028326D /* CoreImage.framework */; };
+		D35A29D41AD3E7AA0028326D /* libKairosSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D35A29D31AD3E7AA0028326D /* libKairosSDK.a */; };
+		D35A29D61AD3E86A0028326D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35A29D51AD3E86A0028326D /* UIKit.framework */; };
+		D35A29D81AD3E8750028326D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35A29D71AD3E8750028326D /* Foundation.framework */; };
+		D35A29DA1AD3E8940028326D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35A29D91AD3E8940028326D /* CoreMedia.framework */; };
+		D35A29DC1AD3E89C0028326D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35A29DB1AD3E89C0028326D /* CoreGraphics.framework */; };
+		D35A29DE1AD3E8A60028326D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35A29DD1AD3E8A60028326D /* AVFoundation.framework */; };
+		D35A29E01AD3E8AC0028326D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35A29DF1AD3E8AC0028326D /* AudioToolbox.framework */; };
+		D35A29E31AD407080028326D /* DBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D35A29E21AD407080028326D /* DBModel.m */; };
+		D35A29E91AD4089F0028326D /* AgentData.m in Sources */ = {isa = PBXBuildFile; fileRef = D35A29E81AD4089F0028326D /* AgentData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +65,18 @@
 		D35A29CB1AD2F1D30028326D /* IdentifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdentifyViewController.m; sourceTree = "<group>"; };
 		D35A29CE1AD326F40028326D /* CreateAgentHashController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAgentHashController.m; sourceTree = "<group>"; };
 		D35A29D01AD327200028326D /* CreateAgentHashController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateAgentHashController.h; sourceTree = "<group>"; };
+		D35A29D11AD3E3480028326D /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		D35A29D31AD3E7AA0028326D /* libKairosSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libKairosSDK.a; path = AgentYou/libKairosSDK.a; sourceTree = "<group>"; };
+		D35A29D51AD3E86A0028326D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D35A29D71AD3E8750028326D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D35A29D91AD3E8940028326D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		D35A29DB1AD3E89C0028326D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D35A29DD1AD3E8A60028326D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D35A29DF1AD3E8AC0028326D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D35A29E21AD407080028326D /* DBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBModel.m; sourceTree = "<group>"; };
+		D35A29E41AD407180028326D /* DBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBModel.h; sourceTree = "<group>"; };
+		D35A29E81AD4089F0028326D /* AgentData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgentData.m; sourceTree = "<group>"; };
+		D35A29EA1AD408AE0028326D /* AgentData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentData.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +84,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D35A29E01AD3E8AC0028326D /* AudioToolbox.framework in Frameworks */,
+				D35A29DE1AD3E8A60028326D /* AVFoundation.framework in Frameworks */,
+				D35A29DC1AD3E89C0028326D /* CoreGraphics.framework in Frameworks */,
+				D35A29DA1AD3E8940028326D /* CoreMedia.framework in Frameworks */,
+				D35A29D81AD3E8750028326D /* Foundation.framework in Frameworks */,
+				D35A29D61AD3E86A0028326D /* UIKit.framework in Frameworks */,
+				D35A29D41AD3E7AA0028326D /* libKairosSDK.a in Frameworks */,
+				D35A29D21AD3E3480028326D /* CoreImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +108,14 @@
 		D35A298B1ACDA7080028326D = {
 			isa = PBXGroup;
 			children = (
+				D35A29DF1AD3E8AC0028326D /* AudioToolbox.framework */,
+				D35A29DD1AD3E8A60028326D /* AVFoundation.framework */,
+				D35A29DB1AD3E89C0028326D /* CoreGraphics.framework */,
+				D35A29D91AD3E8940028326D /* CoreMedia.framework */,
+				D35A29D71AD3E8750028326D /* Foundation.framework */,
+				D35A29D51AD3E86A0028326D /* UIKit.framework */,
+				D35A29D31AD3E7AA0028326D /* libKairosSDK.a */,
+				D35A29D11AD3E3480028326D /* CoreImage.framework */,
 				D35A29961ACDA7080028326D /* AgentYou */,
 				D35A29B01ACDA7080028326D /* AgentYouTests */,
 				D35A29951ACDA7080028326D /* Products */,
@@ -96,6 +134,8 @@
 		D35A29961ACDA7080028326D /* AgentYou */ = {
 			isa = PBXGroup;
 			children = (
+				D35A29E51AD408580028326D /* Data */,
+				D35A29E11AD406E50028326D /* Database */,
 				D35A29CD1AD3269C0028326D /* CreateAgentHashController */,
 				D35A29C01AD2DACA0028326D /* Identify */,
 				D35A29BF1AD2DABF0028326D /* DashBoard */,
@@ -182,6 +222,32 @@
 				D35A29D01AD327200028326D /* CreateAgentHashController.h */,
 			);
 			name = CreateAgentHashController;
+			sourceTree = "<group>";
+		};
+		D35A29E11AD406E50028326D /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				D35A29E21AD407080028326D /* DBModel.m */,
+				D35A29E41AD407180028326D /* DBModel.h */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		D35A29E51AD408580028326D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D35A29E61AD408630028326D /* Agent */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		D35A29E61AD408630028326D /* Agent */ = {
+			isa = PBXGroup;
+			children = (
+				D35A29E81AD4089F0028326D /* AgentData.m */,
+				D35A29EA1AD408AE0028326D /* AgentData.h */,
+			);
+			name = Agent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,7 +353,9 @@
 				D35A29C21AD2ED640028326D /* LoginViewController.m in Sources */,
 				D35A29CF1AD326F40028326D /* CreateAgentHashController.m in Sources */,
 				D35A29A01ACDA7080028326D /* ViewController.m in Sources */,
+				D35A29E31AD407080028326D /* DBModel.m in Sources */,
 				D35A299D1ACDA7080028326D /* AppDelegate.m in Sources */,
+				D35A29E91AD4089F0028326D /* AgentData.m in Sources */,
 				D35A29C81AD2F17C0028326D /* DashBoardViewController.m in Sources */,
 				D35A29CC1AD2F1D30028326D /* IdentifyViewController.m in Sources */,
 				D35A29C51AD2F0D40028326D /* RegisterViewController.m in Sources */,
@@ -417,6 +485,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AgentYou/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AgentYou",
+				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -427,6 +500,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AgentYou/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AgentYou",
+				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -484,6 +562,7 @@
 				D35A29B91ACDA7090028326D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D35A29BA1ACDA7090028326D /* Build configuration list for PBXNativeTarget "AgentYouTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +571,7 @@
 				D35A29BC1ACDA7090028326D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

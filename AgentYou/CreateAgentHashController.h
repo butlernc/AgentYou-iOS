@@ -13,11 +13,9 @@
 
 @interface CreateAgentHashController : UIViewController
 
-@end
-
-@implementation CreateAgentHashController
-
+-(void) sendAgentIDToServer : (NSString*) test;
 
 @end
 
 #endif
+

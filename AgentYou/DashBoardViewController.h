@@ -9,5 +9,15 @@
 #ifndef AgentYou_DashBoardViewController_h
 #define AgentYou_DashBoardViewController_h
 
+#import <UIKit/UIKit.h>
+#import "DBModel.h"
+
+@interface DashBoardViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, DBModelProtocol>
+@property NSMutableArray* agentsList;
+@property DBModel* databaseConnection;
+@property (strong, nonatomic) IBOutlet UITableView *agentListView;
+
+@end
+
 
 #endif
